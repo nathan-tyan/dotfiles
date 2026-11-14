@@ -8,4 +8,4 @@ cp .vimrc ~/.vimrc
 
 cp .config/starship.toml ~/.config/starship.toml
 
-rsync --archive --delete --exclude='local.fish' .config/fish/ ~/.config/fish
+rsync --archive .config/fish/ ~/.config/fish
