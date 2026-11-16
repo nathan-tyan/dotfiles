@@ -5,6 +5,7 @@ opt.autoread = true
 opt.background = 'dark'
 opt.backspace = { 'indent', 'eol', 'start' }
 opt.completeopt = 'menuone'
+opt.cursorline = true
 opt.guicursor = 'n-v:block,i-c-ci-ve:ver25,a:blinkwait1000-blinkoff600-blinkon300'
 opt.hidden = true
 opt.list = true
