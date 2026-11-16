@@ -8,5 +8,5 @@ cp .vimrc ~/.vimrc
 
 cp .config/starship.toml ~/.config/starship.toml
 
-cp --recursive .config/nvim ~/.config/nvim
+rsync --archive .config/nvim/ ~/.config/nvim
 rsync --archive .config/fish/ ~/.config/fish
